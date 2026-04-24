@@ -40,7 +40,7 @@ O fluxo de ETL (Extração, Transformação e Carregamento) é orquestrado pelo 
    - Carga incremental dos dados processados
    - Manutenção de histórico para análise temporal
 
-![Arquitetura ETL](pics/arquitetura.svg)
+![Arquitetura ETL](pics/arquitetura etl.png)
 
 O Airflow gerencia todo o fluxo com DAGs (Directed Acyclic Graphs) que são agendadas e monitoradas, garantindo que cada etapa seja executada na ordem correta e com tratamento de falhas adequado.
 
